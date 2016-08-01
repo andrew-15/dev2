@@ -1,0 +1,447 @@
+2016-07-29 8:39:21 - PHP Notice:  Undefined variable: islogged in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 46
+2016-07-29 8:39:21 - PHP Notice:  Undefined variable: providers in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 48
+2016-07-29 8:39:21 - PHP Warning:  Invalid argument supplied for foreach() in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 48
+2016-07-29 8:39:21 - PHP Notice:  Undefined variable: error in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 151
+2016-07-29 8:39:21 - PHP Notice:  Undefined variable: size in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 154
+2016-07-29 8:39:21 - PHP Notice:  Undefined variable: button_sign_in in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 154
+2016-07-29 8:39:21 - PHP Notice:  Undefined variable: providers in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 155
+2016-07-29 8:39:21 - PHP Warning:  Invalid argument supplied for foreach() in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 155
+2016-07-29 8:39:21 - PHP Notice:  Undefined variable: size in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 161
+2016-07-29 8:50:34 - PHP Notice:  Undefined variable: islogged in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 46
+2016-07-29 8:50:34 - PHP Notice:  Undefined variable: providers in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 48
+2016-07-29 8:50:34 - PHP Warning:  Invalid argument supplied for foreach() in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 48
+2016-07-29 8:50:34 - PHP Notice:  Undefined variable: error in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 151
+2016-07-29 8:50:34 - PHP Notice:  Undefined variable: size in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 154
+2016-07-29 8:50:34 - PHP Notice:  Undefined variable: button_sign_in in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 154
+2016-07-29 8:50:34 - PHP Notice:  Undefined variable: providers in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 155
+2016-07-29 8:50:34 - PHP Warning:  Invalid argument supplied for foreach() in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 155
+2016-07-29 8:50:34 - PHP Notice:  Undefined variable: size in F:\OpenServer\domains\dev5.dreamvention.com\catalog\view\theme\default\template\common\header.tpl on line 161
+2016-07-29 9:12:45 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Facebook.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Facebook->initialize()
+#1 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Facebook', Array, Array)
+#2 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Facebook', Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Facebook', NULL)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(103): Hybrid_Auth::authenticate('Facebook')
+#5 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#6 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#7 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#8 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#9 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#10 {main}
+2016-07-29 9:17:11 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Facebook.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Facebook->initialize()
+#1 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Facebook', Array, Array)
+#2 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Facebook', Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Facebook', NULL)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(101): Hybrid_Auth::authenticate('Facebook')
+#5 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#6 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#7 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#8 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#9 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#10 {main}
+2016-07-29 9:17:14 - Missing provider application credentials.
+
+HybridAuth Error: Your application key and secret are required in order to connect to Twitter.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Providers\Twitter.php(18): Hybrid_Provider_Model_OAuth1->initialize()
+#1 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Twitter->initialize()
+#2 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Twitter', Array, Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Twitter', Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Twitter', NULL)
+#5 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(101): Hybrid_Auth::authenticate('Twitter')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#8 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#9 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#10 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2016-07-29 9:17:16 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Providers\Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(101): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#8 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#9 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#10 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2016-07-29 9:55:24 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 9:56:01 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 10:00:55 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 10:12:10 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 10:12:12 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 10:12:22 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 10:12:57 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 11:01:39 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 11:05:03 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 11:05:12 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 11:05:42 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 11:12:30 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 11:21:57 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 11:54:07 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 11:54:11 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Providers\Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(101): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#8 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#9 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#10 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2016-07-29 11:54:13 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Providers\Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(101): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#8 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#9 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#10 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2016-07-29 11:54:15 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 12:05:53 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 12:06:23 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Providers\Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Google', NULL)
+#5 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(101): Hybrid_Auth::authenticate('Google')
+#6 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#7 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#8 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#9 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#10 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#11 {main}
+2016-07-29 12:07:45 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 12:14:10 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 12:14:12 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 12:14:22 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 12:15:46 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 12:17:15 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 12:19:37 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Facebook returned an invalid user id.
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
+2016-07-29 15:23:12 - Authentication failed. The user has canceled the authentication or the provider refused the connection.
+
+HybridAuth Error: Authentication failed! Google returned an error: access_denied
+
+Trace:
+ #0 F:\OpenServer\domains\dev5.dreamvention.com\system\library\Hybrid\Auth.php(55): Hybrid_Auth::initialize(Array)
+#1 F:\OpenServer\domains\dev5.dreamvention.com\catalog\controller\module\d_social_login.php(99): Hybrid_Auth->__construct(Array)
+#2 [internal function]: ControllerModuleDSocialLogin->login(Array)
+#3 F:\OpenServer\domains\dev5.dreamvention.com\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): call_user_func(Array, Array)
+#4 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(34): Action->execute(Object(Registry))
+#5 F:\OpenServer\domains\dev5.dreamvention.com\system\engine\front.php(29): Front->execute(Object(Action))
+#6 F:\OpenServer\domains\dev5.dreamvention.com\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#7 {main}
